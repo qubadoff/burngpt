@@ -29,7 +29,8 @@ class ChatRequest extends FormRequest
     public function messages()
     {
         return [
-            'message.required' => 'Message required !'
+            'message.required' => 'Message required !',
+            'message.max' => 'Max 1000 symbols !'
         ];
     }
 }
